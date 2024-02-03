@@ -18,7 +18,7 @@ Example:
 from __future__ import annotations
 
 
-def toy_001(input_data: str | None = None):
+def toy_001(input_data: str | None = None) -> None:
     """
     Implement a placeholder function for learning PyTorch and experimenting with Python code.
 
