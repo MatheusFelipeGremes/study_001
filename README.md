@@ -10,11 +10,11 @@ To install the project, follow these steps:
 
    ```bash
    conda create -p venv python=3.10
-   conda activate venv
+   source activate venv/
    ```
 2. Clone this repository to your local machine.
 3. Navigate to the project's root directory.
-4. Run the command `pip install .` to install all dependencies.
+4. Run the command pip install -e . to install all dependencies. For a development setup, including testing tools and additional dependencies, use pip install -e .[dev].
 
 ## Usage
 
